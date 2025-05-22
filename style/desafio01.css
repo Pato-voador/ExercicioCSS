@@ -1,0 +1,42 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    text-align: left;
+    color: lightsteelblue;
+}
+
+h2{
+    font-family: fantasy;
+    text-align: left;
+}
+
+.Comida{
+    font-family: cursive;
+    background-color: aquamarine;
+    color: black;
+}
+
+.Textu{
+    color: black;
+    text-align: justify;
+}
+
+th{
+    background-color: lightgreen;
+    text-align: center;
+    color: chocolate;
+    font-family: cursive;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}

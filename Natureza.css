@@ -1,0 +1,14 @@
+.special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+    body, html {
+    margin: 0; 
+    padding: 0; 
+    height: 100%;
+    }
+
+    .cabeçalho {
+        
+    }

@@ -1,0 +1,72 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Testes de Fontes — Maiúsculo e Minúsculo</title>
+
+  <!-- IMPORTAÇÃO GOOGLE FONTS: famílias em MAIÚSCULO -->
+  <link href="https://fonts.googleapis.com/css2?family=BREE+SERIF&family=AVERIA+SERIF+LIBRE&family=CAGLIOSTRO&family=NUNITO&family=COMFORTAA&family=MONTSERRAT&family=BE+VIETNAM&display=swap" rel="stylesheet">
+
+  <!-- IMPORTAÇÃO GOOGLE FONTS: mesmas famílias em minúsculo -->
+  <link href="https://fonts.googleapis.com/css2?family=bree+serif&family=averia+serif+libre&family=cagliostro&family=nunito&family=comfortaa&family=montserrat&family=be+vietnam&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: #fff;
+      color: #000;
+      padding: 2rem;
+      line-height: 1.4;
+    }
+    section { margin-bottom: 3rem; }
+    h2 { margin-bottom: 0.5rem; }
+    p { margin-top: 0; }
+
+    /* seção UPPERCASE: usa nomes de família em MAIÚSCULO */
+    .upper h2 { font-family: 'BREE SERIF', serif; }
+    .upper h3 { font-family: 'AVERIA SERIF LIBRE', serif; }
+    .upper h4 { font-family: 'CAGLIOSTRO', cursive; }
+    .upper p.nunito { font-family: 'NUNITO', sans-serif; }
+    .upper p.comfortaa { font-family: 'COMFORTAA', sans-serif; }
+    .upper p.montserrat { font-family: 'MONTSERRAT', sans-serif; }
+    .upper small { font-family: 'BE VIETNAM', sans-serif; }
+
+    /* seção lowercase: usa nomes de família em minúsculo */
+    .lower h2 { font-family: 'bree serif', serif; }
+    .lower h3 { font-family: 'averia serif libre', serif; }
+    .lower h4 { font-family: 'cagliostro', cursive; }
+    .lower p.nunito { font-family: 'nunito', sans-serif; }
+    .lower p.comfortaa { font-family: 'comfortaa', sans-serif; }
+    .lower p.montserrat { font-family: 'montserrat', sans-serif; }
+    .lower small { font-family: 'be vietnam', sans-serif; }
+  </style>
+</head>
+<body>
+
+  <!-- Uma seção usando as famílias em MAIÚSCULO (não alternando) -->
+  <section class="upper">
+    <h2>BREE SERIF – EXEMPLO MAIÚSCULO</h2>
+    <h3>AVERIA SERIF LIBRE – SUBTÍTULO</h3>
+    <h4>CAGLIOSTRO – SEU CABEÇALHO</h4>
+    <p class="nunito">NUNITO – Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p class="comfortaa">COMFORTAA – Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="montserrat">MONTSERRAT – Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <small>BE VIETNAM – Duis aute irure dolor in reprehenderit.</small>
+  </section>
+
+  <!-- Uma seção usando as famílias em minúsculo (não alternando) -->
+  <section class="lower">
+    <h2>bree serif – exemplo minúsculo</h2>
+    <h3>averia serif libre – subtítulo</h3>
+    <h4>cagliostro – seu cabeçalho</h4>
+    <p class="nunito">nunito – lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p class="comfortaa">comfortaa – sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="montserrat">montserrat – ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <small>be vietnam – duis aute irure dolor in reprehenderit.</small>
+  </section>
+
+</body>
+</html>
+```
